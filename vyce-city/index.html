@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090d">
+  <title>VYCE//CITY — No Sleep. No Rules.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top">VYCE<span>//</span>CITY</a>
+    <nav><a href="#districts">DISTRICTS</a><a href="#transmissions">TRANSMISSIONS</a><a href="#about">ABOUT</a></nav>
+    <button class="icon-button" id="mapBtn" aria-label="Open city map"><span>MAP</span><i>↗</i></button>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="side-label">FLORIDA, 03:17 AM <span>///</span> 26° 07' N</div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="pulse"></span> LIVE FROM THE CITY THAT NEVER LOGS OFF</p>
+        <h1>VYCE<span class="slash">//</span><br><span class="outline">CITY</span></h1>
+        <div class="hero-foot">
+          <p class="intro">A beautiful place to lose<br>your signal.</p>
+          <div class="hero-actions"><a class="cta" href="#districts">ENTER THE CITY <span>↘</span></a><button id="glitchBtn" class="ghost">DISTURB SIGNAL <span>⌁</span></button></div>
+        </div>
+      </div>
+      <div class="stamp">NO SLEEP<br>NO RULES<br><span>EST. AFTER DARK</span></div>
+      <div class="ticker"><span>THE SUN IS DOWN &nbsp; ✦ &nbsp; THE CITY IS YOURS &nbsp; ✦ &nbsp; NO SLEEP &nbsp; ✦ &nbsp; THE SUN IS DOWN &nbsp; ✦ &nbsp; THE CITY IS YOURS &nbsp; ✦ &nbsp;</span></div>
+    </section>
+    <section class="manifesto" id="about">
+      <div class="section-index">01 / CITY MANIFESTO</div>
+      <div class="manifesto-copy"><p>Some cities are built to be <em>visited.</em></p><h2>THIS ONE<br>IS BUILT TO<br><span>DISAPPEAR IN.</span></h2><p class="small-copy">Salt in the air. Static in your speakers. A skyline that looks better when you shouldn't be awake. Welcome to Vyce.</p></div>
+      <div class="coordinates">LAT 26.1224° N<br>LONG 80.1373° W<br><span>CONNECTION: UNSTABLE</span></div>
+    </section>
+    <section class="districts" id="districts">
+      <div class="section-head"><div class="section-index">02 / PICK YOUR POISON</div><h2>THREE WAYS<br>TO <span>GET LOST.</span></h2><p>Choose a district. The city doesn't choose for you.</p></div>
+      <div class="district-grid">
+        <article class="district-card neon" data-district="Neon Mile"><div class="card-art art-one"><div class="sun"></div><div class="building b1"></div><div class="building b2"></div><div class="building b3"></div><div class="road"></div><span class="art-sign">OPEN<br>ALL NIGHT</span></div><div class="card-meta"><span>01 / THE NIGHTLIFE</span><span>▴ 24/7</span></div><h3>NEON MILE</h3><p>Where every bad idea has a soundtrack.</p><button class="district-link" data-open="Neon Mile">EXPLORE DISTRICT ↗</button></article>
+        <article class="district-card" data-district="Glass Coast"><div class="card-art art-two"><div class="moon"></div><div class="tower t1"></div><div class="tower t2"></div><div class="tower t3"></div><div class="water"></div><span class="art-sign">LUXURY<br>IS A LIE</span></div><div class="card-meta"><span>02 / THE WATERFRONT</span><span>◈ PRIVATE</span></div><h3>GLASS COAST</h3><p>Beautiful views. Expensive mistakes.</p><button class="district-link" data-open="Glass Coast">EXPLORE DISTRICT ↗</button></article>
+        <article class="district-card" data-district="Dead Signal"><div class="card-art art-three"><div class="orb"></div><div class="tower t4"></div><div class="tower t5"></div><div class="tower t6"></div><div class="fog"></div><span class="art-sign">NO<br>WITNESSES</span></div><div class="card-meta"><span>03 / THE BACKSTREETS</span><span>⌁ OFF GRID</span></div><h3>DEAD SIGNAL</h3><p>Nothing good ever happens here. So stay.</p><button class="district-link" data-open="Dead Signal">EXPLORE DISTRICT ↗</button></article>
+      </div>
+      <!-- 03 / STREET GARAGE -->
+<section class="garage" id="garage">
+  <div class="section-index">03 / STREET CULTURE</div>
+
+  <div class="garage-heading">
+    <div>
+      <p class="garage-tag">VEHICLES / NIGHT SHIFT</p>
+      <h2>BUILT FOR<br><span>THE STREETS.</span></h2>
+    </div>
+    <p class="garage-description">
+      No destination. No speed limit in your head.
+      Just a full tank and a city that refuses to sleep.
+    </p>
+  </div>
+
+  <div class="garage-grid">
+
+    <!-- CAR 01 -->
+    <article class="car-card">
+      <div class="car-visual car-pink">
+        <span class="car-number">VX-001</span>
+        <span class="car-type">STREET / SPORT</span>
+
+        <svg viewBox="0 0 600 300" class="car-svg" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="300" cy="244" rx="230" ry="25" fill="#000" opacity=".5"/>
+          <path d="M93 209 L116 169 Q133 152 183 143 L233 95 Q254 76 316 76 L390 86 Q422 98 462 153 L506 173 Q522 185 523 215 L505 234 L100 234 Z" fill="#ec3477"/>
+          <path d="M240 101 Q255 88 313 89 L378 97 Q400 104 431 151 L213 151 Z" fill="#161c2b" stroke="#ff91bc" stroke-width="4"/>
+          <path d="M319 91 L317 151" stroke="#ff91bc" stroke-width="4"/>
+          <path d="M108 190 L148 178 L174 183 L164 203 L112 204 Z" fill="#ff9fcb"/>
+          <path d="M462 178 L495 192 L493 204 L461 202 Z" fill="#ffb68a"/>
+          <path d="M180 220 L426 220" stroke="#ff94c2" stroke-width="5"/>
+          <circle cx="181" cy="228" r="42" fill="#09090d" stroke="#555" stroke-width="6"/>
+          <circle cx="181" cy="228" r="23" fill="#a9a9b3"/>
+          <circle cx="181" cy="228" r="10" fill="#222"/>
+          <circle cx="430" cy="228" r="42" fill="#09090d" stroke="#555" stroke-width="6"/>
+          <circle cx="430" cy="228" r="23" fill="#a9a9b3"/>
+          <circle cx="430" cy="228" r="10" fill="#222"/>
+          <path d="M120 218 L156 218" stroke="#ff397d" stroke-width="7"/>
+          <path d="M464 218 L495 218" stroke="#ff397d" stroke-width="7"/>
+        </svg>
+
+        <button class="drive-btn" data-drive="0">TAKE A DRIVE ↗</button>
+      </div>
+
+      <div class="car-details">
+        <div><span>01 / NIGHT RUNNER</span><span>VY-77</span></div>
+        <h3>VORTEX GT</h3>
+        <p>Rear-wheel drive · Twin turbo · Midnight spec</p>
+      </div>
+    </article>
+
+    <!-- CAR 02 -->
+    <article class="car-card">
+      <div class="car-visual car-cyan">
+        <span class="car-number">VX-002</span>
+        <span class="car-type">CLASSIC / CUSTOM</span>
+
+        <svg viewBox="0 0 600 300" class="car-svg" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="300" cy="244" rx="230" ry="25" fill="#000" opacity=".5"/>
+          <path d="M77 212 L106 174 L176 160 L230 117 Q249 102 325 106 L394 119 L441 159 L492 170 L521 207 L513 235 L86 235 Z" fill="#29b8b2"/>
+          <path d="M235 124 Q254 111 322 116 L378 126 L408 157 L204 157 Z" fill="#17202b" stroke="#a5fff9" stroke-width="4"/>
+          <path d="M309 116 L309 158" stroke="#a5fff9" stroke-width="4"/>
+          <path d="M109 185 L155 178 L177 189 L171 205 L107 205 Z" fill="#b6fff6"/>
+          <path d="M463 182 L493 194 L495 206 L463 206 Z" fill="#ffd8a0"/>
+          <path d="M91 214 L502 214" stroke="#9ffff7" stroke-width="5"/>
+          <circle cx="174" cy="228" r="42" fill="#09090d" stroke="#555" stroke-width="6"/>
+          <circle cx="174" cy="228" r="23" fill="#aaa"/>
+          <circle cx="174" cy="228" r="10" fill="#222"/>
+          <circle cx="434" cy="228" r="42" fill="#09090d" stroke="#555" stroke-width="6"/>
+          <circle cx="434" cy="228" r="23" fill="#aaa"/>
+          <circle cx="434" cy="228" r="10" fill="#222"/>
+        </svg>
+
+        <button class="drive-btn" data-drive="1">TAKE A DRIVE ↗</button>
+      </div>
+
+      <div class="car-details">
+        <div><span>02 / COASTLINE</span><span>VY-88</span></div>
+        <h3>SAINT 86</h3>
+        <p>Classic coupe · Custom build · Low profile</p>
+      </div>
+    </article>
+
+    <!-- CAR 03 -->
+    <article class="car-card">
+      <div class="car-visual car-orange">
+        <span class="car-number">VX-003</span>
+        <span class="car-type">SUPERCAR / EXOTIC</span>
+
+        <svg viewBox="0 0 600 300" class="car-svg" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="300" cy="244" rx="230" ry="25" fill="#000" opacity=".5"/>
+          <path d="M77 209 L128 176 L200 155 L259 105 L358 94 L413 124 L457 159 L511 176 L524 214 L511 234 L85 234 Z" fill="#ff843f"/>
+          <path d="M265 113 L358 105 L398 131 L418 153 L230 153 Z" fill="#151d2c" stroke="#ffc19c" stroke-width="4"/>
+          <path d="M347 106 L346 153" stroke="#ffc19c" stroke-width="4"/>
+          <path d="M126 183 L177 171 L189 184 L178 203 L112 203 Z" fill="#ffedc9"/>
+          <path d="M466 182 L495 193 L493 205 L461 203 Z" fill="#ffd4aa"/>
+          <path d="M102 215 L497 215" stroke="#ffbb87" stroke-width="5"/>
+          <circle cx="180" cy="228" r="42" fill="#09090d" stroke="#555" stroke-width="6"/>
+          <circle cx="180" cy="228" r="23" fill="#aaa"/>
+          <circle cx="180" cy="228" r="10" fill="#222"/>
+          <circle cx="435" cy="228" r="42" fill="#09090d" stroke="#555" stroke-width="6"/>
+          <circle cx="435" cy="228" r="23" fill="#aaa"/>
+          <circle cx="435" cy="228" r="10" fill="#222"/>
+        </svg>
+
+        <button class="drive-btn" data-drive="2">TAKE A DRIVE ↗</button>
+      </div>
+
+      <div class="car-details">
+        <div><span>03 / THE OUTLAW</span><span>VY-99</span></div>
+        <h3>REAPER X</h3>
+        <p>Supercar · V12 · Unregistered</p>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- STREET ANIMATION -->
+  <div class="street-scene">
+    <div class="street-label">CITY TRAFFIC / LIVE FEED</div>
+    <div class="street-sky"></div>
+    <div class="street-buildings">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="street-road">
+      <div class="street-lane"></div>
+      <div class="moving-car moving-car-one"></div>
+      <div class="moving-car moving-car-two"></div>
+    </div>
+  </div>
+</section>
+    </section>
+    <section class="transmissions" id="transmissions"><div class="section-index">03 / CITY FREQUENCY</div><div class="transmission-row"><div><span class="live-tag"><span class="pulse"></span> ON AIR</span><h2>WHAT'S<br>HAPPENING <span>NOW.</span></h2></div><div class="signal-box"><div class="signal-line"><span>01</span><p>Someone is always watching the skyline.</p><time>03:17 AM</time></div><div class="signal-line"><span>02</span><p>Last call is a suggestion here.</p><time>02:48 AM</time></div><div class="signal-line"><span>03</span><p>Signal lost somewhere on Ocean Drive.</p><time>01:06 AM</time></div><div class="signal-line"><span>04</span><p>You're not supposed to be here.</p><time>00:13 AM</time></div></div></div></section>
+    <section class="endnote"><p>IF YOU FIND YOURSELF,</p><h2>DON'T<br><span>CALL HOME.</span></h2><a href="#top" class="cta">BACK TO THE TOP ↑</a></section>
+  </main>
+  <footer><span>VYCE//CITY © 2026</span><span>MADE AFTER DARK</span><button id="secretBtn" aria-label="Secret terminal">[ ? ]</button></footer>
+  <div class="modal" id="modal" aria-hidden="true"><div class="modal-panel"><button class="close" id="closeModal">×</button><div class="modal-kicker">VYCE CITY / LOCAL INTEL</div><h2 id="modalTitle">CITY MAP</h2><div class="map-visual"><div class="map-road r1"></div><div class="map-road r2"></div><div class="map-road r3"></div><div class="map-road r4"></div><div class="map-water"></div><button class="map-pin pin1" data-pin="Neon Mile">●<small>NEON MILE</small></button><button class="map-pin pin2" data-pin="Glass Coast">●<small>GLASS COAST</small></button><button class="map-pin pin3" data-pin="Dead Signal">●<small>DEAD SIGNAL</small></button></div><p id="modalText">Pick a location on the map.</p></div></div>
+  <div class="toast" id="toast"></div>
+  <div class="terminal" id="terminal"><button class="close" id="closeTerminal">×</button><div class="term-head">VYCE LOCAL TERMINAL <span>CONNECTED</span></div><p>Unauthorized access is a lifestyle.</p><div class="term-output" id="termOutput">Type <b>help</b> to see available commands.</div><form id="termForm"><span>&gt;</span><input id="termInput" autocomplete="off" spellcheck="false" aria-label="Terminal command"><button>RUN</button></form></div>
+  <script src="script.js"></script>
+</body>
+</html>
